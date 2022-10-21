@@ -14,6 +14,5 @@
 
     let url = window.location.href;
     let videoId = url.match(/\/([a-zA-Z0-9]{11})$/)[1]
-    console.log(videoId)
     window.location.href = `https://youtube.com/watch?v=${videoId}`
 })();
